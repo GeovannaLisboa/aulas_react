@@ -1,6 +1,11 @@
+import { Link } from "react-router-dom"
+
 function Usuarios() {
   return (
-    <div>Usuários</div>
+    <div>
+        <h1>Usuários</h1>
+        <Link to={"/"}>Voltar para Home</Link>
+    </div>
   )
 }
 
